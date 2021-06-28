@@ -7,8 +7,8 @@
  
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "maneeshanegi"                                                                 //Enter your adafruit.io user name 
-#define MQTT_PASS "aio_ohLr79oK9qqJ4sv93ZagAXi4EZqI"                                             //Enter your adafruit.io feed active key. 
+#define MQTT_NAME "________"                                                                 //Enter your adafruit.io user name 
+#define MQTT_PASS "__________________"                                                       //Enter your adafruit.io feed active key. 
                                                                                            
 WiFiClient client;                                                                         //Set up MQTT and WiFi clients
 Adafruit_MQTT_Client mqtt(&client, MQTT_SERV, MQTT_PORT, MQTT_NAME, MQTT_PASS);
